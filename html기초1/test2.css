@@ -1,0 +1,15 @@
+#box1{
+    width: 300px;
+    height: 200px;
+    position: relative;
+    background: rgb(179, 177, 177);
+    top: 0px;
+}
+#box2{
+   width: 80px;
+   height: 50px;
+   background: rgb(226, 147, 174);
+   position: absolute;
+   left: 300px;
+   top: 200px;
+}
