@@ -1,0 +1,35 @@
+.imgCard{
+    float: left;
+    width: 150px;
+    height: 300px;
+    margin: 0 10px;
+}
+.imgCard img{
+    width: 100%;
+    
+}
+
+.imgbox{
+    margin-top: 20px;
+    height: 300px;
+}
+.imgcard2{
+    height: 300px;
+    width: 150px;
+    margin: 0 10px;
+    float: left;
+    
+}
+.imgcard2.a{
+     background: url("./겨울이미지1.jpg") no-repeat center;
+     background-size: cover;
+}
+.imgcard2.b{
+     background: url("./겨울이미지3.jpg")  no-repeat center;
+         background-size: cover;
+}
+.imgcard2.c{
+     background: url("./겨울이미지2.jpg") no-repeat center;
+         background-size: cover;
+
+}
