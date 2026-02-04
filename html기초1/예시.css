@@ -1,0 +1,20 @@
+*{
+      padding: 0px;
+      margin: 0px;
+}
+
+
+.main{
+      background: black;
+      height: 300px;
+}
+.body{
+
+     background: purple;
+     height: 300px;
+     width: 638px;
+     
+   
+     border: 1px solid blue;
+     float: left;
+}
