@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .inputField{
+           display:flex;
+           gap:10px;
+
+        }
+        #result{
+            margin-top:20px;
+            font-size:24px;
+            font-weight:bold;
+            color:blue;
+        }
+
+
+    </style>
+    <script>
+       function 클릭커(){
+        let name= document.getElementById("userName").value;
+        alert(name);
+        let obj=document.querySelector("#userName");
+        console.dir(obj);
+    
+       }
+
+        function 클릭커2(){
+            
+            const year = new Date().getFullYear();
+            let age=document.getElementById("userAge").value;
+            let tage= year-age+1;
+            alert("당신이 태어난 연도는 "+tage+"년 입니다.");
+
+        }
+        function 클릭커3(){
+           let adress=document.getElementById("userAddress");
+           let div=document.getElementById("result");
+            div.innerText=adress.value;
+        // innerHTML , innerText 차이점
+        // innerHTML ="<input>";
+        // innerText ="<input>"; 결과가 다름
+          div.innerHTML="<input>";
+        }
+ 
+       
+
+    </script>
+</head>
+<body>
+    <!--문제 : 주소를 입력하여 div#result에 출력하세요
+    힌트 : div 태그에는 value가 없다 대신 innerText에 넣으면 된다-->
+   <div class="inputField">
+    <input type="text" name="userName" id="userName">
+    <button onclick="클릭커()">확인</button>
+</div>
+<div class="inputField">
+       <input type="text" name="userAge" id="userAge">
+       <button onclick="클릭커2()">확인</button> 
+   </div>
+   <div id="result"></div>
+     <div class="inputField">
+    <input type="text" name="userAddress" id="userAddress">
+    <button onclick="클릭커3()">확인</button>
+</div>
+
+
+
+
+
+    
+</body>
+</html>

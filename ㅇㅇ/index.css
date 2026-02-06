@@ -70,23 +70,24 @@ footer {
     background: #003366; 
     border-radius: 7px;
       justify-content: space-between;
+      
 }
 .main2{
-    background: #f1f1f1;
+    background: transparent;
     width: 1000px;
     height: 500px;
     margin: 24px 100px 46px 100px;
     border-radius: 5px;
 }
 .main3{
-    background: peru;
+    background: transparent;
     height: 350px;
     width: 1000px;
     display: flex;
      
 }
 .main4{
-     background: red;
+      background: transparent;
      height: 120px;
      width: 1000px;
      margin-top: 30px;
@@ -95,33 +96,52 @@ footer {
 }
 .imgArea{
     width: 350px;
-    height: 350px;
- background: blue;
+    height: 320px;
+    background: url("./KakaoTalk_20260205_143126514.png") no-repeat;
+    background-size: cover;
 
 }
 .textArea{
+
      width: 650px;
     height: 350px;
-    background: chartreuse;
+     background: transparent;
 
 }
 .mainText{
     margin-top: 20px;
-     background: red;
      height: 70px;
-
+     color: #f1f1f1;
+     font-size: 45px;
+    background: transparent;
+    margin-left: 50px;
+    font-weight : bolder;
 }
 .text1{
-    background: orange;
+    background: transparent;
     height: 90px;
+   color: #f1f1f1;
+    font-size: 20px;
+    margin-left: 50px;
+   
+
 }
 .text2{
-    background: yellow;
+     background: transparent;
     height: 70px;
+    color: #f1f1f1;
+    font-size: 20px;
+    margin-left: 50px;
 }
 .text3{
+    background: transparent;
     background: #003366;
     height: 70px;
+    color: #f1f1f1;
+    font-size: 20px;
+     margin-left: 50px;
+    font-weight : bold;
+
 }
 .underLine{
     height: 2px;
@@ -129,51 +149,126 @@ footer {
     background: white;
 }
 .underBox{
-    background: white;
+     background: #f1f1f1;
     width: 320px;
-    height: 120px;
+    height: 130px;
+    color:#003366;
+    border-radius: 5px;
+    border: 2px solid black;
+      box-sizing: border-box;
+    
     
 }
 .underTopBox{
     display: flex;
-   width: 320px;
+   width: 315px;
    height: 60px;
-   background: plum;
+   background: #f1f1f1;
+     box-sizing: border-box;
+     border-radius: 5px;
 }
 .underline{
-    width: 250px;
+    width: 200px;
     height: 2px;
     background-color: rgba(233, 226, 226, 0.982);
-    margin-left: 35px;
+    margin-left: 70px;
 }
 .underBotBox{
       display: flex;
-   width: 320px;
-   height: 58px;
-   background: #000000;
+   width: 315px;
+   height: 52px;
+   background: #f1f1f1;
+     box-sizing: border-box;
 }
-.underBoxImg{
+.underBoxImg1{
     width: 40px;
     height: 40px;
-  background: red;
+  background: url("./istockphoto-817509202-1024x1024.jpg");
   margin: 10px;
+  background-size: cover;
   
+}
+.underBoxImg2{
+    width: 40px;
+    height: 40px;
+  background: url("./istockphoto-817509202-1024x1024.jpg");
+  margin: 10px;
+  background-size: cover;
+  
+}
+.underBoxImg3{
+    width: 40px;
+    height: 40px;
+  background: url("./istockphoto-817509202-1024x1024.jpg");
+  margin: 10px;
+  background-size: cover;
   
 }
 .underTopBoxText{
-     width: 230px;
+     width: 260px;
      height: 58px;
-     background: green;
+     background: #f1f1f1;
+     padding: 7px 15px;
+     border-radius: 7px;
+     box-sizing: border-box;
+     padding-top: 18px;
+      
+}
+.underTopBoxText2{
+     width: 260px;
+     height: 58px;
+     background: #f1f1f1;
+     padding: 7px 15px;
+     border-radius: 7px;
+     box-sizing: border-box;
+     padding-top: 18px;
+     padding-left: 40px;
+      
+}
+.underTopBoxText3{
+     width: 260px;
+     height: 58px;
+     background: #f1f1f1;
+     padding: 7px 15px;
+     border-radius: 7px;
+     box-sizing: border-box;
+     padding-top: 18px;
+      padding-left: 40px;
+      
 }
 .underBotBoxBlank{
       width: 40px;
-    height: 40px;
-  background: red;
-  margin: 10px;
+      height: 50px;
+      margin: 10px;
+       box-sizing: border-box;
+        background: #f1f1f1;
   
 }
 .underBotBoxText{
     width: 230px;
      height: 58px;
-     background: green;
+     background: #f1f1f1;
+     padding:14px;
+    
+     border-radius: 7px;
+     box-sizing: border-box;
 }
+.underBotBoxText2{
+    width: 230px;
+     height: 58px;
+     background: #f1f1f1;
+     padding:14px;
+     padding-left: 40px;
+     border-radius: 7px;
+     box-sizing: border-box;
+}
+.underBotBoxText3{
+    width: 230px;
+     height: 58px;
+     background: #f1f1f1;
+     padding:14px;
+     padding-left: 40px;
+     border-radius: 7px;
+     box-sizing: border-box;
+}
+
