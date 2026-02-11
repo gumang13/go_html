@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrap{
+    width: 800px;
+    margin: 50px auto;
+}
+.head-title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+#board-table td, #board-table th{
+    border: 2px solid #ddd;
+   
+}
+#board-table{
+    border-collapse: collapse;     /* 셀 간격 없애기*/
+    width: 100%;
+}
+#board-table tr{
+    height: 50px;
+}
+.num{
+    width: 80px;
+}
+.title{
+    width: 300px;
+}
+.writer{
+    width: 100px;
+}
+.date{
+    width: 120px;
+}
+.table-body tr td:nth-child(1), .table-body tr td:nth-child(3), .table-body tr td:nth-child(4){
+    text-align: center;
+}
+.table-body tr td:nth-child(2){
+    padding-left: 15px;
+}
+.table-body tr:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+/* 모달 만들기 */
+#modalWrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#modalBack{
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    position: fixed;
+    opacity: 0.6;
+}
+#modalContent{
+    width: 500px;
+    background-color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 7px;
+}
+.content{
+    padding: 20px;
+    
+}
+.d-title{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.detail{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.detail span{
+    width: 50px;
+    font-weight: bold;
+}
+.detail p{
+    flex: 1;
+}
+
+.close{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+.hide{
+    display: none;
+}

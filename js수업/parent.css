@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.inputfield{
+display: flex;
+gap:10px;
+margin-bottom: 10px;
+}
+.wrap{
+    margin: 0 auto;
+    width: 300px;
+}
